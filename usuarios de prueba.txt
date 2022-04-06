@@ -1,0 +1,11 @@
+user: admin
+pass: 12345
+rol: Administrador
+
+user: yesid.mora
+pass:joyas1908
+rol: Asesor
+
+user:leidy.mora
+pass: joyas1908
+rol: Tecnico

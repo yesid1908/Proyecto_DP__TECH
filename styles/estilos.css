@@ -1,0 +1,123 @@
+:root{
+    --color-fondo:#6f6f6f;
+    --borde-formularios: 10px;
+    --color-formularios: #5e5e5e;
+}
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background:var(--color-fondo);
+}
+
+.formulario{
+    border-radius: var(--borde-formularios);
+    
+}
+
+.colorformularios{
+    background-color: var(--color-formularios);
+}
+
+
+.logo-empresa{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 250px;
+    
+}
+.posiblefallo, .notas{
+    width: 450px;
+    height: 50px;
+}
+
+.link-registro-usuario{
+    margin-top: 30px;
+    color: white;
+}
+.boton-registro{
+    text-decoration: none;
+    color: #3498db;
+    
+}
+.version{
+    color: white;
+    margin-top: 40px;
+}
+
+
+
+
+.caja1, .caja2{
+    width: 400px;
+    height: 350px;
+}
+
+.posiblefallo, .notas{
+    width: 90%;
+    height: 100px;
+}
+
+.diagnostico{
+    height: 25vh;
+}
+
+@media screen and (max-width: 768px){
+    
+    .cajaser2{
+        margin-top: 20px;
+    }
+
+}
+
+
+/*******Menu************/
+.sidebar-nav ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    padding: 6px 10px;
+    transition: 0.5s;
+}
+.sidebar-nav ul li a:hover{
+    background-color: #808080;
+    border-radius: 4px;
+}
+.sidebar-nav .offcanvas{
+    width: 220px;
+    border: none;
+}
+.sidebar-nav .offcanvas ul li a span{
+    font-size: 15px;
+    position: relative;
+    top: -4px;
+    transition: 0.5s;
+}
+.sidebar-nav .offcanvas.show ul li a:hover span{
+    padding-left: 10px;
+}
+.sidebar-nav .dropdown-toggle::after{
+    position: relative;
+    top: 3px;
+}
+
+/*****Seleccion buscador****/
+.paginaSeleccionada{
+    background: #428bca;
+    border: 1px solid #428bca;
+    
+}
+
+
+/*****Div Registro dispositivo******/
+#divReDisp{
+    justify-content: space-between;
+}
+
+/******Servicio Tecnico*********/
